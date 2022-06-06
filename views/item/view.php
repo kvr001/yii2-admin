@@ -1,8 +1,8 @@
 <?php
 
-use mdm\admin\AnimateAsset;
-use mdm\admin\components\ItemController;
-use mdm\admin\models\AuthItem;
+use kvr001\admin\AnimateAsset;
+use kvr001\admin\components\ItemController;
+use kvr001\admin\models\AuthItem;
 use yii\helpers\Html;
 use yii\helpers\Json;
 use yii\helpers\Url;

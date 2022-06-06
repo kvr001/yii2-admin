@@ -1,9 +1,9 @@
 <?php
 
-namespace mdm\admin\models;
+namespace kvr001\admin\models;
 
 use Yii;
-use mdm\admin\components\Configs;
+use kvr001\admin\components\Configs;
 use yii\db\Query;
 
 /**

@@ -1,9 +1,9 @@
 <?php
 
-namespace mdm\admin\models;
+namespace kvr001\admin\models;
 
-use mdm\admin\components\Configs;
-use mdm\admin\components\UserStatus;
+use kvr001\admin\components\Configs;
+use kvr001\admin\components\UserStatus;
 use Yii;
 use yii\base\NotSupportedException;
 use yii\behaviors\TimestampBehavior;

@@ -5,7 +5,7 @@ namespace tests\codeception\unit\models;
 use Yii;
 use tests\codeception\unit\TestCase;
 use Codeception\Specify;
-use mdm\admin\models\AuthItem;
+use kvr001\admin\models\AuthItem;
 
 class ItemTest extends TestCase
 {

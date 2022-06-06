@@ -1,15 +1,15 @@
 <?php
 
-namespace mdm\admin\controllers;
+namespace kvr001\admin\controllers;
 
-use mdm\admin\components\UserStatus;
-use mdm\admin\models\form\ChangePassword;
-use mdm\admin\models\form\Login;
-use mdm\admin\models\form\PasswordResetRequest;
-use mdm\admin\models\form\ResetPassword;
-use mdm\admin\models\form\Signup;
-use mdm\admin\models\searchs\User as UserSearch;
-use mdm\admin\models\User;
+use kvr001\admin\components\UserStatus;
+use kvr001\admin\models\form\ChangePassword;
+use kvr001\admin\models\form\Login;
+use kvr001\admin\models\form\PasswordResetRequest;
+use kvr001\admin\models\form\ResetPassword;
+use kvr001\admin\models\form\Signup;
+use kvr001\admin\models\searchs\User as UserSearch;
+use kvr001\admin\models\User;
 use Yii;
 use yii\base\InvalidParamException;
 use yii\base\UserException;
@@ -52,7 +52,7 @@ class UserController extends Controller
             if (Yii::$app->has('mailer') && ($mailer = Yii::$app->getMailer()) instanceof BaseMailer) {
                 /* @var $mailer BaseMailer */
                 $this->_oldMailPath = $mailer->getViewPath();
-                $mailer->setViewPath('@mdm/admin/mail');
+                $mailer->setViewPath('@kvr001/admin/mail');
             }
             return true;
         }

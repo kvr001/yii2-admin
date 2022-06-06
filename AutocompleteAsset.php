@@ -1,6 +1,6 @@
 <?php
 
-namespace mdm\admin;
+namespace kvr001\admin;
 
 use yii\web\AssetBundle;
 
@@ -15,7 +15,7 @@ class AutocompleteAsset extends AssetBundle
     /**
      * @inheritdoc
      */
-    public $sourcePath = '@mdm/admin/assets';
+    public $sourcePath = '@kvr001/admin/assets';
     /**
      * @inheritdoc
      */

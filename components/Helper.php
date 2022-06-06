@@ -1,8 +1,8 @@
 <?php
 
-namespace mdm\admin\components;
+namespace kvr001\admin\components;
 
-use mdm\admin\models\Route;
+use kvr001\admin\models\Route;
 use Yii;
 use yii\caching\TagDependency;
 use yii\helpers\ArrayHelper;

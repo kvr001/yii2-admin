@@ -1,17 +1,17 @@
 <?php
 
-namespace mdm\admin\components;
+namespace kvr001\admin\components;
 
 use Yii;
 use yii\caching\TagDependency;
-use mdm\admin\models\Menu;
+use kvr001\admin\models\Menu;
 
 /**
  * MenuHelper used to generate menu depend of user role.
  * Usage
  * 
  * ```
- * use mdm\admin\components\MenuHelper;
+ * use kvr001\admin\components\MenuHelper;
  * use yii\bootstrap\Nav;
  *
  * echo Nav::widget([

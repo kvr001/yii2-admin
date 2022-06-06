@@ -1,11 +1,11 @@
 <?php
 
-namespace mdm\admin\models;
+namespace kvr001\admin\models;
 
-use mdm\admin\components\Configs;
-use mdm\admin\components\Helper;
-use mdm\admin\controllers\AssignmentController;
-use mdm\admin\Module;
+use kvr001\admin\components\Configs;
+use kvr001\admin\components\Helper;
+use kvr001\admin\controllers\AssignmentController;
+use kvr001\admin\Module;
 use Yii;
 use yii\base\Model;
 use yii\helpers\Json;

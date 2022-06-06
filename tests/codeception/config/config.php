@@ -3,16 +3,16 @@
  * Application configuration shared by all test types
  */
 return [
-    'id' => 'mdm-admin-test',
+    'id' => 'kvr001-admin-test',
     'basePath' => dirname(dirname(__DIR__)), // @tests
     'vendorPath' => dirname(dirname(dirname(__DIR__))) . '/vendor',
     'language' => 'en-US',
     'aliases' => [
-        '@mdm/admin' => dirname(dirname(dirname(__DIR__))),
+        '@kvr001/admin' => dirname(dirname(dirname(__DIR__))),
     ],
     'modules' => [
         'admin' => [
-            'class' => 'mdm\admin\Module',
+            'class' => 'kvr001\admin\Module',
         ]
     ],
     'controllerMap' => [
@@ -40,7 +40,7 @@ return [
                 'rbac-admin' => [
                     'class' => 'yii\i18n\PhpMessageSource',
                     'sourceLanguage' => 'en',
-                    'basePath' => '@mdm/admin/messages'
+                    'basePath' => '@kvr001/admin/messages'
                 ]
             ]
         ]
